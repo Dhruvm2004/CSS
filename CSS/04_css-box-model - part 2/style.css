@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1{
+   background-color: lightgreen;
+}
+/* .parent{
+    background-color: crimson;
+} */
+ 
+.one{
+    background-color: brown;
+    width: 300px;
+    margin: 40px;
+    
+    padding: 25px;
+    
+    border: 4px solid;
+    border-radius: 8px;
+    
+    /* word-break: break-all; */
+}
+
+.two{
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin: 40px;
+    border: 8px solid;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: 5px solid green;
+}
+img{
+    width: 100%;
+}
+/* height percent will work when the height of a parent is in pixels */

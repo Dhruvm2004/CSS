@@ -1,0 +1,35 @@
+main{
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+.box:hover{
+    transform: translate(-50% ,-50%) rotate(45deg) scale(1.5);
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    background-image:url('https://th.bing.com/th/id/OIP.PT1WO-SwopebduBu_LIlAgHaJg?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 3px 4px;
+    /* opacity: 0.5;
+    transform: scale(5);
+    transform-origin: 100% 100%; */
+    /* transform: rotate(45deg); */
+    /* transform: translateY(100px); */
+    /* margin-top: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 8px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 16px 4px rgba(0,0, 0, 0.3);
+    border-radius: 12px;
+    transition: transform 200ms;
+}
+h1{
+    text-shadow: 2px 2px 2px greenyellow;
+}
+/* opacity se uske andr kaa content bhi transparent hota          translateX Y karne se dusra elemnt affect nahi hoga     % me wo apnee height width ke hisaab se translate hoga*/

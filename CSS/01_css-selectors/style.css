@@ -1,0 +1,31 @@
+li{
+    font-weight: 700;
+    font-size: 32px;
+}
+.html{
+    color: #DD4B25;
+}
+.css{
+    color: #254BDD;
+}
+.js{
+    color: #EFD81D;
+}
+.react{
+    color: #5DE3F3;
+}
+.tailwind{
+    color: #0EA5E9;
+}
+[class]{
+    background-color: green;
+}
+[anurag]:hover{
+    color: #DD4B25;
+}
+ul p{
+    background-color: lightseagreen;
+}
+h1 :hover{
+    color: blue;
+}

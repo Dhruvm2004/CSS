@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.inline-block{
+    display: inline-block;
+    background-color: blueviolet;
+}
+
+.html{
+    display: inline-block;
+    background-color: aquamarine;
+    height: 200px;
+    width: 300px;
+    
+    border: 10px solid green;
+    margin: 20px;
+    outline: 10px solid hotpink;
+}
+img{
+    width: 300px;
+    height: 300px;
+background-color: cadetblue;
+padding: 50px;
+border: 20px solid deeppink;
+margin: 25px;}
+iframe{
+    width: 480px;
+    height: 360px;
+}
+video{
+    width: 480px;
+}
+/* there are two type of inline  replaceable and non replaceable i.e replaceable inline  changes its property with our actions done. */
+/* height and width doesnt applly on span elements .padding apply but works wierdly means it overlaps the other p or div etc elements  
+anchor tags padding also overlaps on other elements .*/

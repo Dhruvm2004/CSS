@@ -1,0 +1,13 @@
+
+.one{
+    background-color: brown;
+    height: 200px;
+    width: 300px;
+    padding-left: 10px;
+    /* word-break: break-all; */
+}
+
+.two{
+    background-color: lightgreen;
+}
+/* height percent will work when the height of a parent is in pixels */

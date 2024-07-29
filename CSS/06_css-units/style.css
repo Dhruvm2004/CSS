@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    width: 600px;
+    
+}
+
+.box{
+    background-color: chartreuse;
+    width: 400px;
+   padding: 24px;
+   
+}
+section{
+    background-color: aqua;
+    width: 50vw;
+    height: 10vw;
+    margin: 10vw;
+    border: 1vw solid green;
+    font-size: 4vw;
+   
+        /* box-sizing: border-box; */ 
+}

@@ -1,0 +1,25 @@
+#html {
+    background-color: deeppink;
+}
+li.html{
+    background-color: chartreuse !important;
+}
+li{
+    background-color: aqua  !important;
+    
+}
+li {
+    background-color: brown !important;
+}
+.html{
+    background-color: blueviolet;
+}
+#html{
+    background-color: aqua;
+}
+#html{
+    background-color: darkmagenta;
+} 
+
+/* we can increase specificity by adding more attributes as above # with . or # with # 
+more the specificity greater is the  priority          Also !important with any style gets highest priority */
