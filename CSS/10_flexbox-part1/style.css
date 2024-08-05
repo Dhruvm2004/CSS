@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.parent {
+    padding: 10px;
+    /* border: 4px solid indianred; */
+    display: flex;
+    height: 50vh;
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* align-items: stretch; */
+
+}
+*{
+    box-sizing: border-box;
+}
+
+.parent span {
+    /* border: 4px solid cadetblue; */
+    /* width: 200px;
+    height: 300px; */
+    /* flex-shrink: 0; */
+    /* flex-grow: 1; */
+    background-color: cadetblue;
+}
+
+.parent p {
+    /* border: 4px solid darkkhaki; */
+    /* width: max-content; */
+    margin: 0;
+    /* width: 400px; */
+    background-color: darkkhaki;
+    /* width: min-content; */
+}
+
+.parent a {
+    /* border: 4px solid yellowgreen; */
+    width: 400px;
+    background-color: yellowgreen;
+    /* flex-shrink: 0; */
+}

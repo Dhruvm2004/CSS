@@ -1,0 +1,29 @@
+.square{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border: 25px solid blue;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust:exact ;
+
+}
+/* @media print { */
+    /* .square{
+        border: 25px solid green;
+    }
+} */
+/* @media (width<=700px){
+    .square{
+        background-color: aquamarine;
+    }
+} */
+/* @media (max-width:700px){
+    .square{
+        background-color: aquamarine;
+    }
+} */
+@media print and  (min-width:500px){
+    .square{
+        background-color: aquamarine;
+    }
+}
